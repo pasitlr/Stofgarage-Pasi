@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://stoffgarage.de/sitemap.xml
+
+# Disallow specific directories
+Disallow: /assets/
+Disallow: /captcha/
+Disallow: /res/
+Disallow: /style/
+Disallow: /pcss/
+Disallow: /analytics/
+
+# Allow access to CSS and JS files
+Allow: /assets/css/
+Allow: /assets/js/
